@@ -4,4 +4,4 @@ router = APIRouter()
 @router.post("/register")
 def register():
     return {"Message":"Successful Register"}
-@router.post("/{id}/heartbeat")
+#E@router.post("/{id}/heartbeat")
