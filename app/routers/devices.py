@@ -28,4 +28,7 @@ def register():
     "Device ID":f"{key}",
     }
     
+@router.get("/register")
+def getRegister():
+    return {"Hello":"Sigma"}
 #@router.post("/{id}/heartbeat")

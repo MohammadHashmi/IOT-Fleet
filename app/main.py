@@ -2,7 +2,7 @@
 Main FastAPI application entry point for IoT Fleet Management backend.
 """
 from fastapi import FastAPI
-from routers import devices
+from .routers import devices
 
 # Initialize FastAPI application
 app = FastAPI()
